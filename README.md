@@ -139,6 +139,7 @@ sudo dnf install clang glibc-static pixman-devel glib2-devel python3-devel pytho
 make distrib
 sudo make install
 ```
+* Kindly note that in src/afl-common.c, I made a small change pertaining include directories that allows for the build to complete.
 It is recommended to install the newest available gcc, clang and llvm-dev
 possible in your distribution!
 
