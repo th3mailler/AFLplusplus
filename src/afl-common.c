@@ -27,11 +27,18 @@
 #include <stdio.h>
 #include <strings.h>
 
+// edits
+#include "../include/debug.h"
+#include "../include/alloc-inl.h"
+#include "../include/envs.h"
+#include "../include/common.h"
+
+/*
 #include "debug.h"
 #include "alloc-inl.h"
 #include "envs.h"
 #include "common.h"
-
+*/
 /* Detect @@ in args. */
 #ifndef __glibc__
   #include <unistd.h>
